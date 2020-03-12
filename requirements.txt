@@ -1,0 +1,10 @@
+Django==3.0.3
+django-environ==0.4.5
+gunicorn==19.9.0
+honcho==1.0.1
+
+django-model-utils==4.0.0
+
+redis==3.4.1
+
+django-scrapyd==0.2
