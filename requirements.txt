@@ -7,5 +7,5 @@ django-model-utils==4.0.0
 
 redis==3.4.1
 
-django-scrapyd==0.2
+django-scrapyd==1.0
 whitenoise==5.0.1
