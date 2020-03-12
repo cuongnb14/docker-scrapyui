@@ -27,7 +27,7 @@ APPS_DIR = BASE_DIR.path('scrapy_ui')
 SECRET_KEY = env("DJANGO_SECRET_KEY", default="rMwFHPJmSr1kgxVWmfF0Hcy3F6XXXvUdVUln5i8RrF0A9F8WfOI3QIKTqmngL4Lz")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "*"]
 
