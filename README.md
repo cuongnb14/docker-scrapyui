@@ -10,7 +10,7 @@ https://hub.docker.com/r/cuongnb14/scrapy_ui
 
 ## Run
 
-`docker run -d -p 8000:8000 --name=scrapy_ui -v scrapy_ui:/app/dbs cuongnb14/scrapy_ui:0.1`
+`docker run -d -p 8000:8000 --name=scrapy_ui -v scrapy_ui:/app/dbs --network alpha-net cuongnb14/scrapy_ui:0.1`
 
 ## Default Account 
 
